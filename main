@@ -1,0 +1,17 @@
+if (xrandr --query --verbose | grep "normal") then
+   xrandr -o inverted
+else
+   xrandr -o normal
+fi
+
+alias ls="cd"
+alias cd="ls"
+
+alias emacs="vim"
+alias vim="emacs"
+
+alias cp="mv"
+alias mv="cp"
+
+alias gedit="nano"
+alias nano="gedit"

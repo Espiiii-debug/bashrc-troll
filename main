@@ -4,14 +4,16 @@ else
    xrandr -o normal
 fi
 
-alias ls="./run/current-system/sw/bin/cd"
-alias cd="./run/current-system/sw/bin/ls"
+alias ls="builtin cd"
+alias cd="/run/current-system/sw/bin/ls"
 
-alias emacs="./run/current-system/sw/bin/vim"
-alias vim="./run/current-system/sw/bin/emacs"
+alias emacs="/run/current-system/sw/bin/vim"
+alias vim="/run/current-system/sw/bin/emacs"
 
-alias cp="./run/current-system/sw/bin/mv"
-alias mv="./run/current-system/sw/bin/cp"
+alias cp="/run/current-system/sw/bin/mv"
+alias mv="/run/current-system/sw/bin/cp"
 
-alias gedit="./run/current-system/sw/bin/nano"
-alias nano="./run/current-system/sw/bin/gedit"
+alias gedit="/run/current-system/sw/bin/nano"
+alias nano="/run/current-system/sw/bin/gedit"
+
+alias alias="echo"

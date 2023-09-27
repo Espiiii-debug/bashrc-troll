@@ -1,4 +1,4 @@
-if (xrandr --query --verbose | grep "normal") then
+if (xrandr --query --verbose | grep " normal ") then
    xrandr -o inverted
 else
    xrandr -o normal
